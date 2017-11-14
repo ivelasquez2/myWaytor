@@ -70,7 +70,6 @@ public class RegisterActivity extends AppCompatActivity {
                 }
                 
                 db.insertRegistrationData(new Registration(1, FirstName,LastName, age,Gender,Email,Username,Password));
-                
                 startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
             }
         });
