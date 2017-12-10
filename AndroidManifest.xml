@@ -9,9 +9,9 @@
     <uses-feature android:name="android.hardware.location.gps" />
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/mywaytoralf"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/mywaytoralf"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <meta-data
@@ -39,8 +39,9 @@
         <activity android:name=".RegisterActivity">
         </activity>
         <activity android:name=".ManageCardActivity">
-    </activity>
+         </activity>
         <activity android:name=".DeleteCardActivity">
         </activity>
+        <activity android:name=".LocationCheckActivity" />
     </application>
 </manifest>
